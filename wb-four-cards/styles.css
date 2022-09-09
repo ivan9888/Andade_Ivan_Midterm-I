@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+}
+body{
+    font-size: 15px;
+    background-color: #FAFAFA;
+    color: #4C4E61;  
+    font-weight: 400;
+}
+
+h1{
+    margin-top: -2%;
+    font-weight: 600;
+    font-size: 30px;
+}
+h2{
+    margin-top: 4%;
+    margin-left: 8px;
+    font-weight: 200;
+    font-size: 30px;
+}
+.p1{
+    margin-left: 35px;
+}
+
+.Supervisor{
+    width: 340px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top:370px;
+    left:220px;
+    padding: 25px;
+    border-style:solid none none none;
+    border-color: #45D3D3;
+    border-width: 5px;
+    box-shadow: 3px 3px 25px 2px #A3A5AE;
+    
+}
+.Builder{
+    width: 340px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top:250px;
+    left:590px;
+    padding: 25px;
+    border-style:solid none none none;
+    border-color: #EA5353;
+    border-width: 5px;
+    box-shadow: 3px 3px 25px 2px #A3A5AE;
+}
+.Karma{
+    width: 340px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top:530px;
+    left:590px;
+    bottom: 40px;
+    padding: 25px;
+    border-style:solid none none none;
+    border-color: #FCAF4A;
+    border-width: 5px;
+    box-shadow: 3px 3px 25px 2px #A3A5AE;
+
+}
+.Calculator{
+    width: 340px;
+    height: 250px;
+    background-color: white;  
+    position: absolute;
+    left: 960px;
+    top:370px;
+    padding: 25px;
+    border-style:solid none none none;
+    border-color: #549EF2;
+    border-width: 5px;
+    box-shadow: 3px 3px 25px 2px #A3A5AE;
+    
+  
+}
+
+.title{
+    font-size: 17px;
+}
+
+.iconSupervisor{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+.iconBuilder{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+.iconCalculator{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+.iconKarma{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
